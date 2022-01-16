@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- This represents which that the below code is written in HTML5-->
+<html lang="en"> <!-- 'lang' Attribute describes which language is used. In our case, Language is 'en' i.e. English-->
 <head>
     <!-- Meta Tag describing which Character Set is used in the Website-->
     <meta charset="UTF-8"> 
@@ -18,6 +18,10 @@
 
     <!-- Title of the page that will appear in the tab -->
     <title>Web Game Development</title>
+
+    <!-- This is used to link external css file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ggeeks.png" type="image/x-icon">
 </head>
 <body>
     <!-- Comment in HTML -->
@@ -89,11 +93,17 @@
 
     <br>
     <!-- Anchor Tag -->
-    <a href="https://www.gaminggeeks.online">Gaming Geeks</a>
+    <!-- Absolute Links -->
+    <a href="https://www.gaminggeeks.online">Gaming Geeks</a><br>
+    <a href="https://www.gaminggeeks.online" target="_self">Gaming Geeks</a><br>
+    <a href="https://www.gaminggeeks.online" target="_blank">Gaming Geeks</a><br>
+
+    <!-- Relative Link -->
+    <a href="link.html">Relative Link</a>
     <!-- href: Hypertext Reference -->
 
     <br><br>
-
+    
     <!-- Division Tag -->
     <div>
         <!-- <h1>In Division Tag</h1>
@@ -104,8 +114,9 @@
         <br>
         <label for="institute">Institute:</label>
         <input name="institute" id="institute" type="text" placeholder="Enter Institute Name">
+        <button type="submit">Submit</button>
     </div>
-
+    
     <!-- Semantics -->
     <form>
         <label for="name">Name:</label>
@@ -113,8 +124,32 @@
         <br>
         <label for="institute">Institute:</label>
         <input name="institute" id="institute" type="text" placeholder="Enter Institute Name">
+        <button type="submit">Submit</button>
     </form>
-
     
+    <br><br>
+
+    <!-- Text Formatting in HTML -->
+    <b>This text is Bold</b><br>
+    <strong>This text is Strong</strong><br>
+    <i>This text is Italic</i><br>
+    <em>This text is Emphasized</em><br>
+
+    <br><br>
+
+    <!-- Images -->
+    <img src="https://picsum.photos/200" alt="Random Image" width="" height="">
+    <!-- src: Source of Image. it can be absolute or relative.-->
+    <!-- alt: Alternate text. It will be displayed if the image is unable to load -->
+    
+    <br><br>
+    <!-- Iframes: Inline Frame -->
+    <iframe src="https://gaminggeeks.online" width="500px" height="500px"></iframe>
+
+    <!-- Emojis -->
+
+    <!-- Block and Inline elements -->
+    
+    <!-- class and ID -->
 </body>
 </html>
