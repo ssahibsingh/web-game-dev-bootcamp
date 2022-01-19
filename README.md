@@ -22,7 +22,7 @@ This repository contains files related to the Web Game Dev Bootcamp organized by
   <li>Code8</li>
 </ul>
 
-<strong>Registeration Form: <a href="https://gaminggeeks.online/register/web-game-dev/">Click Here</a></strong>
+<strong>Registeration Form: <a href="https://gaminggeeks.online/register/web-game-dev/" target="_blank">Click Here</a></strong>
 
 
 
