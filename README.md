@@ -13,7 +13,7 @@ This repository contains files related to the Web Game Dev Bootcamp organized by
 <ul>
   <li>HTML: Sahib Singh</li>
   <li>CSS: Ismeet Kour Chhabda</li>
-  <li>JS: </li>
+  <li>JS: Khushi Purwar</li>
 </ul>
  
 <h2>Organizers</h2>
