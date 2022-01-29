@@ -4,9 +4,9 @@ This repository contains files related to the Web Game Dev Bootcamp organized by
 
 <h2>Details About the Event</h2>
 <ul>
-  <li>Web Game Dev is a week long  Bootcamp organised by Gaming Geeks and Code8 from 14th - 20th February. Along with the game development get an opportunity to be a part of some interesting projects.</li>
-  <li>Dates:  14th - 20th Feb 2022</li>
-  <li>Time: 7 PM - 8PM</li>
+  <li>Web Game Dev is a week long  Bootcamp organised by Gaming Geeks and Code8 from 14th - 21th February. Along with the game development get an opportunity to be a part of some interesting projects.</li>
+  <li>Dates:  14th - 21th Feb 2022</li>
+  <li>Time: 6:45 PM - 8PM</li>
 </ul>
 
 <h2>Speakers</h2>
