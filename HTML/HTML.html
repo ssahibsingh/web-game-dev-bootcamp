@@ -1,10 +1,12 @@
 <!DOCTYPE html> <!-- This represents which that the below code is written in HTML5-->
-<html lang="en"> <!-- 'lang' Attribute describes which language is used. In our case, Language is 'en' i.e. English-->
+<html lang="en">
+<!-- 'lang' Attribute describes which language is used. In our case, Language is 'en' i.e. English-->
+
 <head>
     <!-- Meta Tag describing which Character Set is used in the Website-->
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <!-- This is used if want to support old legacy browsers. For more information, see https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- This is used to make responsive Pages. For more information, see https://www.w3schools.com/tags/tag_meta.asp#:~:text=Setting%20the%20Viewport,-The%20viewport%20is&text=The%20width%3Ddevice%2Dwidth%20part,first%20loaded%20by%20the%20browser. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 
@@ -21,8 +23,10 @@
 
     <!-- This is used to link external css file -->
     <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="ggeeks.png" type="image/x-icon">
 </head>
+
 <body>
     <!-- Comment in HTML -->
 
@@ -36,15 +40,17 @@
     <h6>Heading 6</h6>
 
     <!-- Paragraph Tag -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae ullam ab facere tenetur assumenda animi molestiae, ut est natus vero fugiat quos optio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae ullam ab facere tenetur assumenda animi
+        molestiae, ut est natus vero fugiat quos optio.</p>
     <!-- Break Tag -->
     <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Velit beatae ullam ab facere tenetur assumenda animi molestiae, ut est natus vero fugiat quos optio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Velit beatae ullam ab facere tenetur assumenda animi
+        molestiae, ut est natus vero fugiat quos optio.</p>
     <!-- Horizontal Rule -->
     <hr>
     <hr width="45px">
     <!-- Here 'width' is known as an attribute -->
-    
+
     <!-- Lists -->
     <!-- List item -->
     <li>List Item</li>
@@ -53,14 +59,14 @@
     <!-- <ul type = "square"> -->
     <!-- <ul type = "disc"> -->
     <!-- <ul type = "circle"> -->
-    <ul> 
+    <ul>
         <li>Unordered List</li>
         <li>Unordered List</li>
         <li>Unordered List</li>
     </ul>
 
     <!-- Ordered List -->
-    
+
     <!-- <ol type = "1"> -->
     <!-- <ol type = "I"> -->
     <!-- <ol type = "i"> -->
@@ -71,8 +77,16 @@
         <li>Ordered List</li>
         <li>Ordered List</li>
     </ol>
-    
+
     <br>
+
+    <!-- Text Formatting in HTML -->
+    <b>This text is Bold</b><br>
+    <strong>This text is Strong</strong><br>
+    <i>This text is Italic</i><br>
+    <em>This text is Emphasized</em><br>
+
+
     <!-- Anchor Tag -->
     <!-- Absolute Links -->
     <a href="https://www.gaminggeeks.online">Gaming Geeks</a><br>
@@ -84,7 +98,23 @@
     <!-- href: Hypertext Reference -->
 
     <br><br>
-    
+
+    <!-- Images -->
+    <img src="https://picsum.photos/200" alt="Random Image" width="" height="">
+    <!-- src: Source of Image. it can be absolute or relative.-->
+    <!-- alt: Alternate text. It will be displayed if the image is unable to load -->
+
+    <!-- Semantics -->
+    <form>
+        <label for="name">Name:</label>
+        <input name="name" id="name" type="text" placeholder="Enter Name">
+        <br>
+        <label for="institute">Institute:</label>
+        <input name="institute" id="institute" type="text" placeholder="Enter Institute Name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <br><br>
     <!-- Division Tag -->
     <div>
         <!-- <h1>In Division Tag</h1>
@@ -97,35 +127,6 @@
         <input name="institute" id="institute" type="text" placeholder="Enter Institute Name">
         <button type="submit">Submit</button>
     </div>
-    
-    <!-- Semantics -->
-    <form>
-        <label for="name">Name:</label>
-        <input name="name" id="name" type="text" placeholder="Enter Name">
-        <br>
-        <label for="institute">Institute:</label>
-        <input name="institute" id="institute" type="text" placeholder="Enter Institute Name">
-        <button type="submit">Submit</button>
-    </form>
-    
-    <br><br>
-
-    <!-- Text Formatting in HTML -->
-    <b>This text is Bold</b><br>
-    <strong>This text is Strong</strong><br>
-    <i>This text is Italic</i><br>
-    <em>This text is Emphasized</em><br>
-
-    <br><br>
-
-    <!-- Images -->
-    <img src="https://picsum.photos/200" alt="Random Image" width="" height="">
-    <!-- src: Source of Image. it can be absolute or relative.-->
-    <!-- alt: Alternate text. It will be displayed if the image is unable to load -->
-    
-
-    <!-- Emojis -->
-
-    <!-- class and ID -->
 </body>
+
 </html>
