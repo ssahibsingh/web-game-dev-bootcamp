@@ -18,11 +18,8 @@ This repository contains files related to the Web Game Dev Bootcamp organized by
  
 <h2>Organizers</h2>
 <ul>
-  <li>Gaming Geeks</li>
-  <li>Code8</li>
+  <li><a href="https://gaminggeeks.online/">Gaming Geeks</a></li>
+  <li><a href="https://www.codeate.in/">Code8</a></li>
 </ul>
 
 <strong>Website: <a href="https://code8.ggeeks.me/" target="_blank">https://code8.ggeeks.me/</a></strong>
-
-
-
