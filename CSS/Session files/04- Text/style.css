@@ -1,0 +1,24 @@
+.p1{
+    text-align: left;
+}
+/* text decoration */
+.p2{
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+    text-decoration-thickness: 10px;   
+}
+.p3{
+    text-decoration: underline red double 5px;
+    text-transform: uppercase;
+}
+/* text spacing */
+.p4{
+
+    word-spacing: 50px;
+    
+}
+/* text-shadow: horizontal vertical blur color */
+.p5{
+    
+    text-shadow:  0 0 3px #FF0000,0 0 5px #0000FF;
+}

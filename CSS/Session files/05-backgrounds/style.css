@@ -1,0 +1,13 @@
+.p1{
+    background-color: red;
+    opacity: 0.5;
+}
+.p2{
+    background: rgba(255,0, 0, 0.5)
+}
+.p1, .p2{
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+}
