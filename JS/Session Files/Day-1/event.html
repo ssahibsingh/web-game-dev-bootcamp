@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Handing</title>
+</head>
+
+<body>
+    <h1>Event Handling</h1>
+    
+
+    <!--  ? Inline event handlers -->
+  
+    <!-- <button onclick="document.getElementById('demo').innerHTML=Date()">Click to know time</button>
+    <p id="demo">
+
+    </p> -->
+
+    <!-- ? addEventlistener() -->
+    <p>
+        <button id="btnRate">Submit</button>
+    </p>
+
+   
+    <script >
+        let btn = document.getElementById('btnRate');
+             
+        // traditionl dom event handlers
+        // btn.onclick = function(){
+        //     console.log("2nd method:  button is clicked");
+        // }
+
+        btn.addEventListener('click', function(){
+            console.log("3rd method: button is clicked");
+        });
+
+        
+
+    </script>
+</body>
+
+</html>
