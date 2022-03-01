@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D4ECDD !important;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+} 
+
+h1{
+    margin: 30px !important;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 0 #112031;
+    font-size: 7em !important;
+    color: #112031;
+}
+
+button{
+    border:none;
+    border-radius: 10px;
+    padding:10px;
+    margin: 30px 0;
+    background-color: #112031;
+    font-size:30px;
+    font-family: 'Oooh Baby', cursive;
+    color: #D4ECDD;
+}
+
+button:hover{
+    box-shadow: 0px 0px 300px 5px #345B63;
+    transform:scale(1.1);
+    font-weight: 500;
+}
+
+.dice{
+    display: flex;
+    justify-content: space-around;
+}
