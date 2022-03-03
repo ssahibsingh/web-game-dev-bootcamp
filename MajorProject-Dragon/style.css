@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    overflow: hidden;
+}
+.gameContainer{
+    background-image: url(assets/characters/Super_Mario_Clouds.gif);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100vh;
+}
+
+.mario{
+    background-image: url(assets/characters/Mario\ Character\ 2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 115px;
+    height: 145px;
+    position: absolute;
+    bottom:0;
+    left: 50px;
+}
+
+.obstacle{
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/characters/enemy\ character.gif);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 40vw;
+    animation: obstacleAni 5s linear infinite;
+}
+
+.animateMario{
+    animation: mario 0.8s linear;
+}
+
+/* .obstacle{
+    animation: obstacleAni 5s linear infinite;
+} */
+
+.gameOver{
+    position: relative;
+    top:60px;
+    font-size: 50px;
+    text-align: center; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#scoreCont, #life{
+    font-size: 25px;
+    color: #54212f;
+    font-weight: bold;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    border: 3px groove black;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 5px white;
+}
+#life{
+    top: 90px;
+}
+
+@keyframes mario{
+    0%{
+        bottom: 0;
+    }
+    25%{
+        bottom: 150px;
+    }
+    50%{
+        bottom: 300px;
+    }
+    75%{
+        bottom:150px;
+    }
+    100%{
+        bottom: 0; 
+    }
+}
+
+@keyframes obstacleAni{
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}
